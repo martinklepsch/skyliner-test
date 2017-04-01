@@ -15,7 +15,7 @@
 
 (defroutes app-routes
   (GET "/" [] index)
-  (GET "/healthcheck" [] "OK")
+  (GET "/healthcheck" [] "FINE")
   (route/not-found "Not Found"))
 
 (def app
